@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>{$page_title|default:"Tytuł domyślny"}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{$app_url}/templates/assets/css/main.css" />
+		    <link rel="stylesheet" href="{$app_url}/templates/style.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="">{$page_header}</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="{$app_url}/index.php">Home</a></li>
+							
+							<li><a href="#" class="button primary">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>{$page_title|default:"Tytuł domyślny"}</h2>
+							
+						</header>
+
+					
+						{block name=content} Domyślna treść zawartości .... {/block}
+
+						
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					
+					<ul class="copyright">
+						<li>&AW; Kalkulator. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
