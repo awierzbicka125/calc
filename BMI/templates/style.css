@@ -1,0 +1,23 @@
+.err {
+	padding: 1em 1em 1em 3em;
+	border-radius: 0.5em;
+	background-color: #FF0000;
+	color: #222;
+        font-size: 115%
+}
+
+.inf {
+	padding: 1em 1em 1em 3em;
+	border-radius: 0.5em;
+	background-color: #00FFFF;
+	color: #222;
+        font-size: 115%
+}
+
+.res {
+	padding: 1em 1em 1em 1em;
+	border-radius: 0.5em;
+	background-color: #7FFF00;
+	color: #222;
+        font-size: 115%
+}
